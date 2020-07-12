@@ -39,3 +39,8 @@ const signUp = document.querySelector(".content-pick .btn");
 signUp.addEventListener('dblclick', () => {
     signUp.style.transform = 'scale(1.3)'
 })
+
+const boatPic = document.querySelector('.content-destination img');
+boatPic.addEventListener('scroll', () => {
+    boatPic.style.transform = "scale(0.5)"
+})
