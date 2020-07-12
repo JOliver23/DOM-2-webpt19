@@ -32,5 +32,10 @@ advTxt.addEventListener('copy', ()=> {
 
 const pgFoot = document.querySelector('.footer');
 pgFoot.addEventListener('mouseout', () => {
-    alert("page loaded")
+    alert("checkout that footer!")
+})
+
+const signUp = document.querySelector(".content-pick .btn");
+signUp.addEventListener('dblclick', () => {
+    signUp.style.transform = 'scale(1.3)'
 })
