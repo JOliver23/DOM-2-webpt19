@@ -29,3 +29,8 @@ advTxt.addEventListener('copy', ()=> {
     advTxt.style.backgroundColor = 'grey';
     advTxt.textContent = 'drag my picture to see something cute!!!'
 })
+
+const pgFoot = document.querySelector('.footer');
+pgFoot.addEventListener('mouseout', () => {
+    alert("page loaded")
+})
