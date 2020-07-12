@@ -55,3 +55,10 @@ inverseTitle.addEventListener('click', (event) => {
     inverseTitle.style.backgroundColor = 'yellow'
     event.stopPropagation()
 })
+
+const navLinks = document.querySelectorAll(".nav .nav-link");
+navLinks.forEach(link => {
+    link.addEventListener('click', () => {
+        link.preventDefault()
+    })
+})
