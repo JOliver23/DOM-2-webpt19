@@ -22,3 +22,10 @@ welcomeMsg.addEventListener('click', ()=> {
     welcomeMsg.style.backgroundColor = 'black';
     welcomeMsg.style.color = 'white';
 });
+
+const advTxt = document.querySelector(".content-section .text-content h2");
+advTxt.addEventListener('copy', ()=> {
+    advTxt.style.color = 'yellow';
+    advTxt.style.backgroundColor = 'grey';
+    advTxt.textContent = 'drag my picture to see something cute!!!'
+})
