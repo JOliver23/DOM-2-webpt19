@@ -44,3 +44,14 @@ const boatPic = document.querySelector('.content-destination img');
 boatPic.addEventListener('scroll', () => {
     boatPic.style.transform = "scale(0.5)"
 })
+
+const inverse = document.querySelector(".inverse-content");
+inverse.addEventListener('click', () => {
+    inverse.style.backgroundColor = 'blue'
+})
+
+const inverseTitle = document.querySelector(".inverse-content .text-content h2");
+inverseTitle.addEventListener('click', (event) => {
+    inverseTitle.style.backgroundColor = 'yellow'
+    event.stopPropagation()
+})
